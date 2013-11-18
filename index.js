@@ -1,5 +1,4 @@
 var matches = require('matches-selector')
-var getChildren = require('children')
 
 module.exports = Siblings
 
@@ -8,6 +7,15 @@ function Siblings(el, selector) {
   .filter(function (sib) {
     return sib !== el
   })
+}
+
+function getChildren(el, selector) {
+  if (selector) {
+    return el.querySelectorAll(selector);
+  } else {
+    return el.children;
+  }
+  
 }
 
 Siblings.next = traverse('next')
