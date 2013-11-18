@@ -4,8 +4,7 @@
   "repo": "discore/siblings",
   "version": "0.0.2",
   "dependencies": {
-    "component/matches-selector": "*",
-    "discore/children": "*"
+    "component/matches-selector": "*"
   },
   "main": "index.js",
   "scripts": [
