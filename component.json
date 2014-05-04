@@ -1,11 +1,10 @@
 {
   "name": "siblings",
   "description": "Get the siblings of an element",
-  "repo": "discore/siblings",
-  "version": "0.0.2",
+  "repo": "actano/siblings",
+  "version": "0.0.3",
   "dependencies": {
-    "component/matches-selector": "*",
-    "discore/children": "*"
+    "component/matches-selector": "*"
   },
   "main": "index.js",
   "scripts": [
