@@ -1,7 +1,7 @@
 {
   "name": "siblings",
   "description": "Get the siblings of an element",
-  "repo": "discore/siblings",
+  "repo": "actano/siblings",
   "version": "0.0.2",
   "dependencies": {
     "component/matches-selector": "*"
